@@ -54,10 +54,10 @@ LanguageTable: dict[str:list[str]] = {
         "The current language is ",
         "Language has been set to ",
         "Language already is ",
-        "Use the \"language\" or \"lang\" command to view/modify the language."
+        "Use the \"language\" or \"lang\" command to view/modify the language.",
         "Connected to address ",
         "You haven't given a name yet.",
-        "There is an address attempting to connect.",
+        "There is an address {} attempting to connect",
         "Connected address:",
         " The registered name is:",
         "kicked out.",
@@ -337,4 +337,3 @@ while ...:
             print(LanguageTable[language][1])
             print(LanguageTable[language][2])
             print(LanguageTable[language][8])
-
